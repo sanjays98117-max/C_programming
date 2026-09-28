@@ -1,0 +1,11 @@
+#include<stdio.h> 
+int main() 
+{ 
+int number=10; 
+float PI=3.14; 
+const int max=100; 
+printf("number=%d\n",number); 
+printf("value of PI=%.2f\n",PI); 
+printf("maximum value=%d\n",max); 
+return 0; 
+}
