@@ -9,7 +9,7 @@ int main()
 	{
 		scanf("%d",&a[i]);
 	}
-	p=&a;
+	p=a;
 	largest=*p;
 	smallest=*p;
 	for(i=1;i<5;i++)
